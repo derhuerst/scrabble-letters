@@ -21,6 +21,7 @@ npm install scrabble-letters
 const letters = require('scrabble-letters')
 
 console.log(letters.G) // {points: 2, tiles: 3}
+console.log(letters[' ']) // {points: null, tiles: 2}
 ```
 
 

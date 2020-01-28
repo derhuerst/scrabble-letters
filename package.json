@@ -20,6 +20,7 @@
 	"dependencies": {
 	},
 	"scripts": {
-		"prepublishOnly": "node index.json"
+		"prepublishOnly": "node test.js",
+		"prepublishOnly": "npm run test"
 	}
 }
