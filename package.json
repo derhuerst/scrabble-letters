@@ -1,0 +1,25 @@
+{
+	"name": "scrabble-letters",
+	"description": "Scrabble points and nr of tiles for each letter.",
+	"version": "1.0.0",
+	"main": "index.json",
+	"files": [
+		"index.json"
+	],
+	"keywords": [
+		"scrabble",
+		"letter"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/scrabble-letters",
+	"repository": "derhuerst/scrabble-letters",
+	"bugs": "https://github.com/derhuerst/scrabble-letters/issues",
+	"engines": {
+		"node": ">=10"
+	},
+	"dependencies": {
+	},
+	"scripts": {
+		"prepublishOnly": "node index.json"
+	}
+}
